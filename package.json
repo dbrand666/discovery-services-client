@@ -1,0 +1,20 @@
+{
+    "name": "discovery-services-client",
+    "description": "NodeJS client for Google APIs",
+    "version": "0.0.1",
+    "author": {
+        "name": "Dave Brand",
+        "url": "https://github.com/dbrand666"
+    },
+    "dependencies": {
+        "async": ">= 0.1",
+        "request": ">= 2.12"
+    },
+    "main": "lib/discovery-services-client",
+    "homepage": "https://github.com/dbrand666/discovery-services-client",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/dbrand666/discovery-services-client.git"
+    },
+    "readme": "NodeJS client for Google APIs (or any other API that supports Google discovery service)"
+}
