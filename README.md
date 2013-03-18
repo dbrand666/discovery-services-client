@@ -19,7 +19,7 @@ Here's a simple example:
         api.plus.people.search({
             query: 'Dave',
             maxResults: 5
-        }, function (err, user) {
+        }, function (err, res, user) {
             if (err) {
                 console.log('ERROR:', err);
                 return;
